@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d18">
+  <title>LNOTHER Cloud</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #080d18;
+      color: #f4f7ff;
+      font-family: Arial, sans-serif;
+      padding: 24px;
+    }
+    .container { max-width: 760px; margin: 50px auto; }
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .mark {
+      background: #77aaff;
+      color: #081225;
+      padding: 12px;
+      border-radius: 12px;
+    }
+    .tag { color: #8fa3c5; margin-top: 55px; }
+    h1 { font-size: clamp(36px, 8vw, 60px); margin: 14px 0; }
+    .desc { color: #aab7ce; line-height: 1.7; max-width: 520px; }
+    .panel {
+      margin-top: 35px;
+      padding: 24px;
+      border: 1px solid #26354f;
+      border-radius: 18px;
+      background: #111a2b;
+    }
+    .panel h2 { margin-top: 0; }
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .action {
+      padding: 18px;
+      border: 1px solid #344563;
+      border-radius: 12px;
+      color: #dce8ff;
+      background: #17243a;
+      text-align: left;
+      font-size: 15px;
+    }
+    .note { color: #8999b5; font-size: 13px; line-height: 1.6; margin-top: 25px; }
+    footer { color: #70809c; font-size: 12px; margin-top: 45px; }
+    @media(max-width: 480px) {
+      body { padding: 18px; }
+      .actions { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="logo">
+      <span class="mark">LN</span>
+      <span>LNOTHER CLOUD</span>
+    </div>
+
+    <p class="tag">YOUR FILES. YOUR CONTROL.</p>
+    <h1>Your cloud.<br>Your control.</h1>
+    <p class="desc">
+      A new approach to private, decentralized file storage.
+      No traditional account required. Your access stays in your hands.
+    </p>
+
+    <section class="panel">
+      <h2>Welcome to LNOTHER Cloud</h2>
+      <p class="desc">
+        We are building a simpler way to store and access files.
+      </p>
+      <div class="actions">
+        <div class="action">↑<br><br>Upload files<br><small>Coming soon</small></div>
+        <div class="action">▤<br><br>My storage<br><small>Coming soon</small></div>
+        <div class="action">⌑<br><br>Recovery Key<br><small>Coming soon</small></div>
+        <div class="action">↗<br><br>Private Access Link<br><small>Coming soon</small></div>
+      </div>
+      <p class="note">
+        Early prototype — file uploads, encryption and decentralized
+        storage are not active yet. Do not store important or private files here.
+      </p>
+    </section>
+
+    <footer>© 2026 LNOTHER CLOUD · BUILDING A MORE OPEN CLOUD</footer>
+  </main>
+</body>
+</html>
